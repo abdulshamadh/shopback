@@ -1,6 +1,6 @@
 Please follow the following steps :
 
-1. Please unzip the folder and place into wamp/www or xampp/hdocs directories. 
+1. Please download the Source Code folder and place into wamp/www or xampp/hdocs directories. 
 2. Create the database name is called 'shopback' into you apache server.
 3. Import the shopback.sql file. 
 4. Run the below url and login using below credentials. 
