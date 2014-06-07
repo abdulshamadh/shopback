@@ -2,7 +2,7 @@ Please follow the following steps :
 
 1. Please unzip the folder and place into wamp/www or xampp/hdocs directories. 
 2. Create the database name is called 'shopback' into you apache server.
-3. Import the abdultest.sql file. 
+3. Import the shopback.sql file. 
 4. Run the below url and login using below credentials. 
 5. Then you can see Account Management link in sidebar. There you can create new user and can manager the account users.
 
