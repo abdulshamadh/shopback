@@ -1,6 +1,6 @@
 <?php
 
-require_once APPPATH . 'libraries/facebook/facebook.php';
+//require_once APPPATH . 'libraries/facebook/facebook.php';
 
 class Home extends Frontend_Controller {
 
@@ -15,7 +15,18 @@ class Home extends Frontend_Controller {
     function index() {
         
     }
-
     
-
+   function integerToString($num, $b=64) {
+          $base='0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+          $r = $num  % $b ;
+          $res = $base[$r];
+          $q = floor($num/$b);
+          while ($q) {
+            $r = $q % $b;
+            $q =floor($q/$b);
+            $res = $base[$r].$res;
+          }
+          echo $res;
+    }
+    
 }
